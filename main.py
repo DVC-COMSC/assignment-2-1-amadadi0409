@@ -1,17 +1,20 @@
 def main():
-    """
+    
     ##################################################
-    Comlete your code here
-    Use m_perc and f_perc for your results
-    ##################################################
-    """
 
-    """
-    ########################################
+    x = int(input("Number of Males: "))
+    y = int(input("Number of Females: "))
+    t = x + y
+    percentage_males = x/t * 100
+    percentage_females = y/t * 100
+    print("The total number of students: ", t)
+    print(f"The number of males and females: {x:.2f}, {y:.2f} ")
+    print(f"The percentage of males and females: {percentage_males:.2f}, {percentage_females:.2f} ")
+        ########################################
     # Do not delete the return statement
     ########################################
-    """
-    return m_perc, f_perc
+    
+    return percentage_males, percentage_females
 
 
 if __name__ == '__main__':

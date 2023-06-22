@@ -5,8 +5,8 @@ def main():
     x = int(input("Number of Males: "))
     y = int(input("Number of Females: "))
     t = x + y
-    percentage_males = t/x
-    percentage_females = t/y
+    percentage_males = x/t * 100
+    percentage_females = y/t * 100
     print("The total number of students: ", t)
     print(f"The number of males and females: {x:.2f}, {y:.2f} ")
     print(f"The percentage of males and females: {percentage_males:.2f}, {percentage_females:.2f} ")

@@ -8,8 +8,8 @@ def main():
     percentage_males = t/x
     percentage_females = t/y
     print("The total number of students: ", t)
-    print(f"The number of males and females: {x}, {y} ")
-    print(f"The percentage of males and females: {percentage_males}, {percentage_females} ")
+    print(f"The number of males and females: {x:.2f}, {y:.2f} ")
+    print(f"The percentage of males and females: {percentage_males:.2f}, {percentage_females:.2f} ")
         ########################################
     # Do not delete the return statement
     ########################################
